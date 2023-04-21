@@ -4,7 +4,7 @@
   "description": "template for app on react and redux",
   "main": "index.js",
   "scripts": {
-    "run-dev-server": "webpack-dev-server",
+    "run": "webpack-dev-server",
     "build-prod": "rm -rf ./dist/* &&  webpack --env --prod",
     "build-dev": "rm -rf ./dist/* &&  webpack"
   },
